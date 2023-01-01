@@ -1,5 +1,8 @@
 import React from 'react'
 import './Featured.css'
+import BTC from '../assets/btc-img.png'
+import {FiArrowUpRight,FiArrowDown} from 'react-icons/'
+
 
 const Featured = () => {
   return (
@@ -15,9 +18,14 @@ const Featured = () => {
         {/* right */}
 
         <div className='right'>
-            <dic className="top">
+            <div className="top">
             <img src={BTC} alt=''/>
-            </dic>
+            </div>
+            <div>
+              <h5>Bitcoin</h5>
+              <p>$49,000</p>
+            </div>
+            <span><FiArrowUpRight/>2.5%</span>
         </div>
 
 
