@@ -26,8 +26,6 @@ const Featured = () => {
   if(!data) return null
 
   // 49:24
-  
-
   return (
     <div className='featured'>
       <div className='container'>
