@@ -20,10 +20,45 @@
     flex-direction:column;
     justify-content: center;
     padding: bottom 2rem;
-
 }
 
 /* 1:03:44 */
+
+.featured .right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.featured .right .card {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 22px;
+    margin: .4rem;
+    width: 170px;
+    height: 170px;
+    border-radius: 24px;
+    border: 1px solid lightgrey;
+    box-shadow: rgb(0 0 0 / 12%) 0px 8px 24px ;
+    text-align: center;
+}
+
+.featured .right .card:hover {
+    box-shadow: rgb(0 0 0 / 20%) 0px 8px 24px ;
+}
+
+.featured .card .top {
+    display: flex;
+    flex-direction: column;
+}
+
+.featured .right img {
+    width: 50px;
+    margin: auto;
+    padding: .2rem 0;
+}
+
+
 
 .green
 {
