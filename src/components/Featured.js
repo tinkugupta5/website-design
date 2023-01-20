@@ -37,6 +37,7 @@ const Featured = () => {
         </div>
 
         {/* right */}
+        <div>
         <div className='card'>
             <div className="top">
             {/* <img src={BTC} alt=''/> */}
