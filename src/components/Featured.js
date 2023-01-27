@@ -1,13 +1,12 @@
 import React,{useState,useEffect} from 'react'
 import './Featured.css'
-import BTC from '../assets/btc-img.png'
-import {FiArrowUpRight,FiArrowDown} from 'react-icons/fi'
+import {BTC} from '../assets/btc-img.png'
+import {FiArrowUpRight} from 'react-icons/fi'
 import axios from 'axios'
 
 
 const Featured = () => {
   const [data,setData] = useState(null)
-
   const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=6&page=1&sparkline=false'
 
   useEffect(() => {
@@ -21,7 +20,6 @@ const Featured = () => {
   },[])
 
   console.log(data)
-
   if(!data) return null
 
   // 49:24
